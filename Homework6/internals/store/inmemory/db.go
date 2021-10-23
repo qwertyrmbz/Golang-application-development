@@ -3,9 +3,10 @@ package inmemory
 import (
 	"context"
 	"fmt"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/models"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/store"
 	"sync"
+
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/models"
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/store"
 )
 
 type DB struct {

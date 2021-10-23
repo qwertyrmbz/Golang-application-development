@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/http"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/store/inmemory"
 	"log"
+
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/http"
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/store/inmemory"
 )
 
 func main() {

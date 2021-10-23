@@ -4,12 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/models"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/store"
 	"log"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/models"
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/store"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"

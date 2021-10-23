@@ -2,7 +2,8 @@ package store
 
 import (
 	"context"
-	"github.com/rmbziiik/Golang-application-development/Homework#6/internal/models"
+
+	"github.com/rmbziiik/Golang-application-development/Homework6/internal/models"
 )
 
 type Store interface {
